@@ -1,0 +1,77 @@
+<section class="middle-wrapper">
+    <div class="subHeader-wrap">
+      <div class="float-left mr-4 align-items-center d-flex">
+        <h4 class="float-left">Zipcodes list</h4>
+      </div>
+    </div>
+  
+    <div class="commonInsideWrap">
+      <div class="table-wrap">
+        <div class="table-head">
+          <div class="d-flex justify-content-around">
+            <div class="head-col justify-content-start">state id</div>
+            <div class="head-col justify-content-start">
+              city id
+            </div>
+            <div class="head-col justify-content-start">
+              city name
+            </div>
+            <div class="head-col justify-content-start">
+              state name
+            </div>
+            <div class="head-col justify-content-start">
+                country id
+            </div>
+            <div class="head-col justify-content-start">
+                country name
+            </div>
+          
+          </div>
+        </div>
+      </div>
+  
+      <div class="table-wrap">
+        <div class="table-body">
+         {{#if list}} {{#each list}}
+          <div class="table-row">
+            <div  class="d-flex c_row">
+              <div class="table-cell act_no justify-content-start">
+                <span class="lbl">state id</span>
+                <span class="data">{{ state_id }}</span>
+              </div>
+          
+              <div class="table-cell cst_name  justify-content-start">
+                <span class="lbl">city id</span>
+                <span class="data">{{ city_id }}</span>
+              </div>
+
+              <div class="table-cell cst_name  justify-content-start">
+                <span class="lbl">city name</span>
+                <span class="data">{{ city_name }}</span>
+              </div>
+
+              <div class="table-cell cst_name  justify-content-start">
+                <span class="lbl">state name</span>
+                <span class="data">{{ state_name }}</span>
+              </div>
+
+              <div class="table-cell cst_name  justify-content-start">
+                <span class="lbl">country id</span>
+                <span class="data">{{ country_id }}</span>
+              </div>
+
+              <div class="table-cell cst_name  justify-content-start">
+                <span class="lbl">country name</span>
+                <span class="data">{{ country_name }}</span>
+              </div>
+            </div>
+          </div>
+          {{/each}}
+          {{/if}}
+          </div>
+        </div>
+    </div>
+  </section>
+  
+  
+  

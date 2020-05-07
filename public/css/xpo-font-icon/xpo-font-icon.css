@@ -1,0 +1,418 @@
+@font-face {
+  font-family: 'xico';
+  src:  url('fonts/xico.eot?wdum2x');
+  src:  url('fonts/xico.eot?wdum2x#iefix') format('embedded-opentype'),
+    url('fonts/xico.ttf?wdum2x') format('truetype'),
+    url('fonts/xico.woff?wdum2x') format('woff'),
+    url('fonts/xico.svg?wdum2x#xico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'xico' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xico-addFolder:before {
+  content: "\e900";
+}
+.xico-air-baloon:before {
+  content: "\e901";
+}
+.xico-alert-round-fill:before {
+  content: "\e902";
+}
+.xico-arrow-right-curve:before {
+  content: "\e903";
+}
+.xico-arrow-right-round:before {
+  content: "\e904";
+}
+.xico-Article-Icon:before {
+  content: "\e905";
+}
+.xico-assigned-in:before {
+  content: "\e906";
+}
+.xico-assigned-out:before {
+  content: "\e907";
+}
+.xico-bag:before {
+  content: "\e908";
+}
+.xico-bell:before {
+  content: "\e909";
+}
+.xico-binbox:before {
+  content: "\e90a";
+}
+.xico-book:before {
+  content: "\e90b";
+}
+.xico-boy-girl:before {
+  content: "\e90c";
+}
+.xico-briefcase:before {
+  content: "\e90d";
+}
+.xico-bulb:before {
+  content: "\e90e";
+}
+.xico-calender:before {
+  content: "\e90f";
+}
+.xico-camera:before {
+  content: "\e910";
+}
+.xico-cat-growth:before {
+  content: "\e911";
+}
+.xico-chair:before {
+  content: "\e912";
+}
+.xico-chating-fill:before {
+  content: "\e913";
+}
+.xico-chat-one:before {
+  content: "\e914";
+}
+.xico-check-fill:before {
+  content: "\e915";
+}
+.xico-clip:before {
+  content: "\e916";
+}
+.xico-clock:before {
+  content: "\e917";
+}
+.xico-close-in-circle:before {
+  content: "\e918";
+}
+.xico-close-in-circle-fill:before {
+  content: "\e919";
+}
+.xico-company:before {
+  content: "\e91a";
+}
+.xico-completed:before {
+  content: "\e91b";
+}
+.xico-contact-circles:before {
+  content: "\e91c";
+}
+.xico-contacts:before {
+  content: "\e91d";
+}
+.xico-createProject:before {
+  content: "\e91e";
+}
+.xico-crm:before {
+  content: "\e91f";
+}
+.xico-cross:before {
+  content: "\e920";
+}
+.xico-debates:before {
+  content: "\e921";
+}
+.xico-delegated:before {
+  content: "\e922";
+}
+.xico-dollar-in-circle:before {
+  content: "\e923";
+}
+.xico-download:before {
+  content: "\e924";
+}
+.xico-duedate:before {
+  content: "\e925";
+}
+.xico-edit:before {
+  content: "\e926";
+}
+.xico-edit-ico-box:before {
+  content: "\e927";
+}
+.xico-edit-notes:before {
+  content: "\e928";
+}
+.xico-events .path1:before {
+  content: "\e929";
+}
+.xico-events .path2:before {
+  content: "\e92a";
+  margin-left: -1em;
+}
+.xico-events .path3:before {
+  content: "\e92b";
+  margin-left: -1em;
+}
+.xico-expand:before {
+  content: "\e92c";
+}
+.xico-file:before {
+  content: "\e92d";
+}
+.xico-flag:before {
+  content: "\e92e";
+}
+.xico-folder-close:before {
+  content: "\e92f";
+}
+.xico-globe:before {
+  content: "\e930";
+}
+.xico-globe-network:before {
+  content: "\e931";
+}
+.xico-graduate:before {
+  content: "\e932";
+}
+.xico-graph-top:before {
+  content: "\e933";
+}
+.xico-help:before {
+  content: "\e934";
+}
+.xico-home:before {
+  content: "\e935";
+}
+.xico-icon-92:before {
+  content: "\e936";
+}
+.xico-inbox:before {
+  content: "\e937";
+}
+.xico-insights:before {
+  content: "\e938";
+}
+.xico-like:before {
+  content: "\e939";
+}
+.xico-Link-Icon:before {
+  content: "\e93a";
+}
+.xico-lock:before {
+  content: "\e93b";
+}
+.xico-logout:before {
+  content: "\e93c";
+}
+.xico-mentor:before {
+  content: "\e93d";
+}
+.xico-menu-bar:before {
+  content: "\e93e";
+}
+.xico-message:before {
+  content: "\e93f";
+}
+.xico-mic:before {
+  content: "\e940";
+}
+.xico-mic-not-allowed:before {
+  content: "\e941";
+}
+.xico-not-allowed:before {
+  content: "\e942";
+}
+.xico-notes:before {
+  content: "\e943";
+}
+.xico-notes-2:before {
+  content: "\e944";
+}
+.xico-outbox:before {
+  content: "\e945";
+}
+.xico-overdue:before {
+  content: "\e946";
+}
+.xico-people:before {
+  content: "\e947";
+}
+.xico-Photo-Icon:before {
+  content: "\e948";
+}
+.xico-pie-round:before {
+  content: "\e949";
+}
+.xico-play .path1:before {
+  content: "\e94a";
+}
+.xico-play .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+}
+.xico-plus-round-fill:before {
+  content: "\e94c";
+}
+.xico-priority:before {
+  content: "\e94d";
+}
+.xico-projectFolder:before {
+  content: "\e94e";
+}
+.xico-projects:before {
+  content: "\e94f";
+}
+.xico-question-round:before {
+  content: "\e950";
+}
+.xico-reminder:before {
+  content: "\e951";
+}
+.xico-repeat:before {
+  content: "\e952";
+}
+.xico-rssfeed:before {
+  content: "\e953";
+}
+.xico-search:before {
+  content: "\e954";
+}
+.xico-search-two:before {
+  content: "\e955";
+}
+.xico-sent:before {
+  content: "\e956";
+}
+.xico-settings:before {
+  content: "\e957";
+}
+.xico-sort:before {
+  content: "\e958";
+}
+.xico-speedmeter:before {
+  content: "\e959";
+}
+.xico-star:before {
+  content: "\e95a";
+}
+.xico-star-inround:before {
+  content: "\e95b";
+}
+.xico-student:before {
+  content: "\e95c";
+}
+.xico-target:before {
+  content: "\e95d";
+}
+.xico-task-edit .path1:before {
+  content: "\e95e";
+}
+.xico-task-edit .path2:before {
+  content: "\e95f";
+  margin-left: -1em;
+}
+.xico-task-edit .path3:before {
+  content: "\e960";
+  margin-left: -1em;
+}
+.xico-task-edit .path4:before {
+  content: "\e961";
+  margin-left: -1em;
+}
+.xico-task-in-curve .path1:before {
+  content: "\e962";
+}
+.xico-task-in-curve .path2:before {
+  content: "\e963";
+  margin-left: -1em;
+}
+.xico-task-list:before {
+  content: "\e964";
+}
+.xico-task-out-curve .path1:before {
+  content: "\e965";
+}
+.xico-task-out-curve .path2:before {
+  content: "\e966";
+  margin-left: -1em;
+}
+.xico-task-tick:before {
+  content: "\e967";
+}
+.xico-tick:before {
+  content: "\e968";
+}
+.xico-tick-round:before {
+  content: "\e969";
+}
+.xico-trash:before {
+  content: "\e96a";
+}
+.xico-truck:before {
+  content: "\e96b";
+}
+.xico-two-man-standing:before {
+  content: "\e96c";
+}
+.xico-university:before {
+  content: "\e96d";
+}
+.xico-up-down-arrowBoth:before {
+  content: "\e96e";
+}
+.xico-user:before {
+  content: "\e96f";
+}
+.xico-user-no:before {
+  content: "\e970";
+}
+.xico-user-reading:before {
+  content: "\e971";
+}
+.xico-user-round:before {
+  content: "\e972";
+}
+.xico-users:before {
+  content: "\e973";
+}
+.xico-Video-Icon:before {
+  content: "\e974";
+}
+.xico-wallet:before {
+  content: "\e975";
+}
+.xico-ListNegative:before {
+  content: "\e976";
+}
+.xico-ListPositive:before {
+  content: "\e977";
+}
+.xico-MatrixNegative:before {
+  content: "\e978";
+}
+.xico-MatrixPositive:before {
+  content: "\e979";
+}
+.xico-StarOutline:before {
+  content: "\e97a";
+}
+.xico-Open:before {
+  content: "\e97b";
+}
+.xico-Close:before {
+  content: "\e97c";
+}
+.xico-Salary:before {
+  content: "\e97d";
+}
+.xico-Messages:before {
+  content: "\e97e";
+}
+.xico-Location:before {
+  content: "\e97f";
+}

@@ -1,0 +1,416 @@
+@font-face {
+  font-family: 'xico';
+  src:  url('fonts/xico.eot?5e9iql');
+  src:  url('fonts/xico.eot?5e9iql#iefix') format('embedded-opentype'),
+    url('fonts/xico.ttf?5e9iql') format('truetype'),
+    url('fonts/xico.woff?5e9iql') format('woff'),
+    url('fonts/xico.svg?5e9iql#xico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'xico' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xico-addFolder:before {
+  content: "\e900";
+  color: #4e4e4e;
+}
+.xico-air-baloon:before {
+  content: "\e901";
+}
+.xico-alert-round-fill:before {
+  content: "\e902";
+}
+.xico-arrow-right-curve:before {
+  content: "\e903";
+}
+.xico-arrow-right-round:before {
+  content: "\e904";
+}
+.xico-Article-Icon:before {
+  content: "\e905";
+  color: #95989a;
+}
+.xico-assigned-in:before {
+  content: "\e906";
+}
+.xico-assigned-out:before {
+  content: "\e907";
+}
+.xico-bag:before {
+  content: "\e908";
+}
+.xico-bell:before {
+  content: "\e909";
+}
+.xico-binbox:before {
+  content: "\e90a";
+}
+.xico-book:before {
+  content: "\e90b";
+}
+.xico-boy-girl:before {
+  content: "\e90c";
+}
+.xico-briefcase:before {
+  content: "\e90d";
+}
+.xico-bulb:before {
+  content: "\e90e";
+}
+.xico-calender:before {
+  content: "\e90f";
+}
+.xico-camera:before {
+  content: "\e910";
+}
+.xico-cat-growth:before {
+  content: "\e911";
+}
+.xico-chair:before {
+  content: "\e912";
+}
+.xico-chating-fill:before {
+  content: "\e913";
+}
+.xico-chat-one:before {
+  content: "\e914";
+}
+.xico-check-fill:before {
+  content: "\e915";
+}
+.xico-clip:before {
+  content: "\e916";
+}
+.xico-clock:before {
+  content: "\e917";
+}
+.xico-close-in-circle:before {
+  content: "\e918";
+}
+.xico-close-in-circle-fill:before {
+  content: "\e919";
+}
+.xico-company:before {
+  content: "\e91a";
+}
+.xico-completed:before {
+  content: "\e91b";
+  color: #f1f3f6;
+}
+.xico-contact-circles:before {
+  content: "\e91c";
+}
+.xico-contacts:before {
+  content: "\e91d";
+}
+.xico-crm:before {
+  content: "\e91e";
+}
+.xico-cross:before {
+  content: "\e91f";
+  color: #cdd1d5;
+}
+.xico-debates:before {
+  content: "\e920";
+}
+.xico-delegated:before {
+  content: "\e921";
+  color: #f1f3f6;
+}
+.xico-dollar-in-circle:before {
+  content: "\e922";
+}
+.xico-download:before {
+  content: "\e923";
+}
+.xico-duedate:before {
+  content: "\e924";
+  color: #95989a;
+}
+.xico-edit:before {
+  content: "\e925";
+}
+.xico-edit-ico-box:before {
+  content: "\e926";
+}
+.xico-edit-notes:before {
+  content: "\e927";
+}
+.xico-events .path1:before {
+  content: "\e928";
+  color: rgb(35, 31, 32);
+}
+.xico-events .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: none;
+}
+.xico-events .path3:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.xico-expand:before {
+  content: "\e92b";
+  color: #365b77;
+}
+.xico-file:before {
+  content: "\e92c";
+}
+.xico-flag:before {
+  content: "\e92d";
+}
+.xico-folder-close:before {
+  content: "\e92e";
+}
+.xico-globe:before {
+  content: "\e92f";
+}
+.xico-globe-network:before {
+  content: "\e930";
+}
+.xico-graduate:before {
+  content: "\e931";
+}
+.xico-graph-top:before {
+  content: "\e932";
+}
+.xico-help:before {
+  content: "\e933";
+  color: #fff;
+}
+.xico-home:before {
+  content: "\e934";
+}
+.xico-inbox:before {
+  content: "\e935";
+  color: #f1f3f6;
+}
+.xico-insights:before {
+  content: "\e936";
+}
+.xico-like:before {
+  content: "\e937";
+}
+.xico-Link-Icon:before {
+  content: "\e938";
+  color: #95989a;
+}
+.xico-lock:before {
+  content: "\e939";
+}
+.xico-logout:before {
+  content: "\e93a";
+  color: #365b77;
+}
+.xico-mentor:before {
+  content: "\e93b";
+}
+.xico-menu-bar:before {
+  content: "\e93c";
+}
+.xico-message:before {
+  content: "\e93d";
+}
+.xico-mic:before {
+  content: "\e93e";
+}
+.xico-mic-not-allowed:before {
+  content: "\e93f";
+}
+.xico-not-allowed:before {
+  content: "\e940";
+}
+.xico-notes:before {
+  content: "\e941";
+}
+.xico-notes-2:before {
+  content: "\e942";
+}
+.xico-outbox:before {
+  content: "\e943";
+}
+.xico-overdue:before {
+  content: "\e944";
+  color: #365b77;
+}
+.xico-people:before {
+  content: "\e945";
+}
+.xico-Photo-Icon:before {
+  content: "\e946";
+  color: #95989a;
+}
+.xico-pie-round:before {
+  content: "\e947";
+}
+.xico-play .path1:before {
+  content: "\e948";
+  color: rgb(35, 31, 32);
+}
+.xico-play .path2:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.xico-plus-round-fill:before {
+  content: "\e94a";
+}
+.xico-priority:before {
+  content: "\e94b";
+  color: #365b77;
+}
+.xico-projectFolder:before {
+  content: "\e94c";
+  color: #365b77;
+}
+.xico-projects:before {
+  content: "\e94d";
+  color: #f1f3f6;
+}
+.xico-question-round:before {
+  content: "\e94e";
+}
+.xico-reminder:before {
+  content: "\e94f";
+  color: #95989a;
+}
+.xico-repeat:before {
+  content: "\e950";
+  color: #95989a;
+}
+.xico-rssfeed:before {
+  content: "\e951";
+}
+.xico-search:before {
+  content: "\e952";
+}
+.xico-search-two:before {
+  content: "\e953";
+}
+.xico-sent:before {
+  content: "\e954";
+}
+.xico-settings:before {
+  content: "\e955";
+  color: #fff;
+}
+.xico-sort:before {
+  content: "\e956";
+  color: #365b77;
+}
+.xico-speedmeter:before {
+  content: "\e957";
+}
+.xico-star:before {
+  content: "\e958";
+  color: #365b77;
+}
+.xico-star-inround:before {
+  content: "\e959";
+}
+.xico-student:before {
+  content: "\e95a";
+}
+.xico-target:before {
+  content: "\e95b";
+}
+.xico-task-edit .path1:before {
+  content: "\e95c";
+  color: rgb(35, 31, 32);
+}
+.xico-task-edit .path2:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.xico-task-edit .path3:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.xico-task-edit .path4:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.xico-task-in-curve .path1:before {
+  content: "\e960";
+  color: rgb(35, 31, 32);
+}
+.xico-task-in-curve .path2:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.xico-task-list:before {
+  content: "\e962";
+}
+.xico-task-out-curve .path1:before {
+  content: "\e963";
+  color: rgb(35, 31, 32);
+}
+.xico-task-out-curve .path2:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.xico-task-tick:before {
+  content: "\e965";
+}
+.xico-tick:before {
+  content: "\e966";
+  color: #cdd1d5;
+}
+.xico-tick-round:before {
+  content: "\e967";
+}
+.xico-trash:before {
+  content: "\e968";
+  color: #f1f3f6;
+}
+.xico-truck:before {
+  content: "\e969";
+}
+.xico-two-man-standing:before {
+  content: "\e96a";
+}
+.xico-university:before {
+  content: "\e96b";
+}
+.xico-user:before {
+  content: "\e96c";
+}
+.xico-user-no:before {
+  content: "\e96d";
+}
+.xico-user-reading:before {
+  content: "\e96e";
+}
+.xico-user-round:before {
+  content: "\e96f";
+}
+.xico-users:before {
+  content: "\e970";
+}
+.xico-Video-Icon:before {
+  content: "\e971";
+  color: #95989a;
+}
+.xico-wallet:before {
+  content: "\e972";
+}
